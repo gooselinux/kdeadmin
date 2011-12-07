@@ -1,0 +1,367 @@
+diff -Nur kdeadmin-4.3.4/kcron/src/kcm_cron.desktop kdeadmin-4.3.5/kcron/src/kcm_cron.desktop
+--- kdeadmin-4.3.4/kcron/src/kcm_cron.desktop	2009-10-02 10:18:28.000000000 +0200
++++ kdeadmin-4.3.5/kcron/src/kcm_cron.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -14,6 +14,7 @@
+ Name=Task Scheduler
+ Name[bg]=Диспечер на задачи
+ Name[ca]=Planificador de tasques
++Name[ca@valencia]=Planificador de tasques
+ Name[cs]=Plánovač úloh
+ Name[da]=Opgaveskemalægger
+ Name[de]=Aufgabenplaner
+@@ -27,6 +28,7 @@
+ Name[ga]=Sceidealóir na dTascanna
+ Name[gl]=Programador de tarefas
+ Name[hne]=काम जमइया
++Name[hr]=Raspoređivač zadataka
+ Name[hu]=Feladatütemező
+ Name[is]=Verkefnastjóri
+ Name[it]=Pianificatore di operazioni
+@@ -58,6 +60,7 @@
+ Comment=Configure and schedule tasks
+ Comment[bg]=Задаване и настройване на задачи
+ Comment[ca]=Configura i planifica les tasques
++Comment[ca@valencia]=Configura i planifica les tasques
+ Comment[cs]=Nastavení a plánování úloh
+ Comment[da]=Indstil og skemalæg opgaver
+ Comment[de]=Aufgaben einrichten und planen
+@@ -71,6 +74,7 @@
+ Comment[ga]=Cumraigh agus sceideal tascanna
+ Comment[gl]=Configura e planifica tarefas
+ Comment[hne]=काम मन ल जमाव अउ कान्फिगर करव
++Comment[hr]=Podesi i rasporedi zadatke
+ Comment[hu]=Időzített feladatok beállítása
+ Comment[is]=Stilla og tímasetja verk
+ Comment[it]=Configura e pianifica le operazioni
+diff -Nur kdeadmin-4.3.4/kdat/kdat.desktop kdeadmin-4.3.5/kdat/kdat.desktop
+--- kdeadmin-4.3.4/kdat/kdat.desktop	2009-10-02 10:18:28.000000000 +0200
++++ kdeadmin-4.3.5/kdat/kdat.desktop	2010-01-21 21:48:43.000000000 +0100
+@@ -7,6 +7,7 @@
+ Name[bn]=কে-ড্যাট
+ Name[br]=KDat
+ Name[ca]=KDat
++Name[ca@valencia]=KDat
+ Name[cs]=KDat
+ Name[cy]=KDat
+ Name[da]=KDat
+@@ -72,6 +73,7 @@
+ GenericName[bn]=টেপ ব্যাকআপ সরঞ্জাম
+ GenericName[br]=Ostilh saveteiñ war seizenn
+ GenericName[ca]=Utilitat per a còpies de seguretat en cintes
++GenericName[ca@valencia]=Utilitat per a còpies de seguretat en cintes
+ GenericName[cs]=Zálohování na pásku
+ GenericName[cy]=Erfyn Cefn-gopïo ar Dâp
+ GenericName[da]=Værktøj til sikkerhedskopiering på bånd
+diff -Nur kdeadmin-4.3.4/knetworkconf/knetworkconf/kcm_knetworkconfmodule.desktop kdeadmin-4.3.5/knetworkconf/knetworkconf/kcm_knetworkconfmodule.desktop
+--- kdeadmin-4.3.4/knetworkconf/knetworkconf/kcm_knetworkconfmodule.desktop	2009-10-02 10:18:28.000000000 +0200
++++ kdeadmin-4.3.5/knetworkconf/knetworkconf/kcm_knetworkconfmodule.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -22,6 +22,7 @@
+ Comment[bn]=নেটওয়ার্ক মানসমূহ কনফিগার করে
+ Comment[br]=Kefluniañ dibarzhoù ar rouedad
+ Comment[ca]=Configura els paràmetres de la xarxa
++Comment[ca@valencia]=Configura els paràmetres de la xarxa
+ Comment[cs]=Nastavení sítě
+ Comment[da]=Indstil netværk
+ Comment[de]=Netzwerkeinstellungen einrichten
+@@ -38,7 +39,7 @@
+ Comment[he]=שינוי הגדרות רשת
+ Comment[hi]=नेटवर्क सेटिंग कॉन्फ़िगर करें
+ Comment[hne]=नेटवर्क सेटिंग कान्फिगर करव
+-Comment[hr]=Konfiguriranje mrežnih postavki
++Comment[hr]=Podesi mrežne postavke
+ Comment[hu]=A hálózat beállításai
+ Comment[hy]=Կարգավորել ցանցի պարամետրերը
+ Comment[is]=Umsjón netstillinga
+@@ -81,6 +82,7 @@
+ Name[bn]=নেটওয়ার্ক মানসমূহ
+ Name[br]=Kefluniadur ar Rouedad
+ Name[ca]=Paràmetres de xarxa
++Name[ca@valencia]=Paràmetres de xarxa
+ Name[cs]=Nastavení sítě
+ Name[cy]=Gosodiadau Rhwydwaith
+ Name[da]=Netværksindstillinger
+diff -Nur kdeadmin-4.3.4/knetworkconf/knetworkconf/knetworkconf.desktop kdeadmin-4.3.5/knetworkconf/knetworkconf/knetworkconf.desktop
+--- kdeadmin-4.3.4/knetworkconf/knetworkconf/knetworkconf.desktop	2009-10-02 10:18:28.000000000 +0200
++++ kdeadmin-4.3.5/knetworkconf/knetworkconf/knetworkconf.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -11,6 +11,7 @@
+ Comment[bn]=টিসিপি/আইপি মানসমূহ কনফিগার করে
+ Comment[br]=Kefluniañ an dibarzhoù TCP/IP
+ Comment[ca]=Configura els paràmetres TCP/IP
++Comment[ca@valencia]=Configura els paràmetres TCP/IP
+ Comment[cs]=Nastavení TCP/IP
+ Comment[da]=Indstil TCP/IP
+ Comment[de]=TCP/IP-Einstellungen einrichten
+@@ -27,7 +28,7 @@
+ Comment[he]=שינוי הגדרות TCP/IP
+ Comment[hi]=टीसीपी/आईपी विन्यास कॉन्फ़िगर करें
+ Comment[hne]=टीसीपी/आईपी सेटिंग कान्फिगर करव
+-Comment[hr]=Konfiguriranje TCP/IP postavki
++Comment[hr]=Podesi postavke TCP/IP-a
+ Comment[hu]=A TCP/IP beállításai
+ Comment[hy]=Կարգավորել TCP/IP պարամետրերը
+ Comment[is]=Umsjón TCP/IP stillinga
+@@ -70,6 +71,7 @@
+ Name[bn]=কে-নেটওয়ার্ক-কন্ফ
+ Name[br]=KNetworkConf
+ Name[ca]=KNetworkConf
++Name[ca@valencia]=KNetworkConf
+ Name[cs]=KNetworkConf
+ Name[da]=KNetworkConf
+ Name[de]=KNetworkConf
+@@ -127,6 +129,7 @@
+ GenericName[bn]=টিসিপি/আইপি মানসমূহ কনফিগারেশন
+ GenericName[br]=Kefluniañ an dibarzhoù TCP/IP
+ GenericName[ca]=Configura els paràmetres TCP/IP
++GenericName[ca@valencia]=Configura els paràmetres TCP/IP
+ GenericName[cs]=Nastavení TCP/IP možností
+ GenericName[da]=Indstil TCP/IP
+ GenericName[de]=TCP/IP-Einstellungen einrichten
+@@ -143,7 +146,7 @@
+ GenericName[he]=שינוי הגדרות TCP/IP
+ GenericName[hi]=टीसीपी/आईपी विन्यास कॉन्फ़िगर करें
+ GenericName[hne]=टीसीपी/आईपी सेटिंग कान्फिगर करव
+-GenericName[hr]=Konfiguriranje TCP/IP postavki
++GenericName[hr]=Podesi postavke TCP/IP-a
+ GenericName[hu]=TCP/IP-beállítások
+ GenericName[hy]=Կարգավորել TCP/IP Պարամետրերը
+ GenericName[is]=Umsjón TCP/IP stillinga
+diff -Nur kdeadmin-4.3.4/kpackage/kpackage.desktop kdeadmin-4.3.5/kpackage/kpackage.desktop
+--- kdeadmin-4.3.4/kpackage/kpackage.desktop	2009-10-02 10:18:28.000000000 +0200
++++ kdeadmin-4.3.5/kpackage/kpackage.desktop	2010-01-21 21:48:43.000000000 +0100
+@@ -7,6 +7,7 @@
+ Name[bn]=কে-প্যাকেজ
+ Name[br]=KPackage
+ Name[ca]=KPackage
++Name[ca@valencia]=KPackage
+ Name[cs]=KPackage
+ Name[cy]=KPackage
+ Name[da]=KPackage
+@@ -71,6 +72,7 @@
+ GenericName[bn]=প্যাকেজ ম্যানেজার
+ GenericName[br]=Merour ar pakadoù
+ GenericName[ca]=Gestor de paquets
++GenericName[ca@valencia]=Gestor de paquets
+ GenericName[cs]=Správce balíčků
+ GenericName[cy]=Rheolydd Pecynnau
+ GenericName[da]=Pakkehåndtering
+diff -Nur kdeadmin-4.3.4/ksystemlog/src/ksystemlog.desktop kdeadmin-4.3.5/ksystemlog/src/ksystemlog.desktop
+--- kdeadmin-4.3.4/ksystemlog/src/ksystemlog.desktop	2009-10-02 10:18:28.000000000 +0200
++++ kdeadmin-4.3.5/ksystemlog/src/ksystemlog.desktop	2010-01-21 21:48:43.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=KSystemLog
+ Name[bg]=Системни логове
+ Name[ca]=KSystemLog
++Name[ca@valencia]=KSystemLog
+ Name[cs]=KSystemLog
+ Name[da]=KSystemLog
+ Name[de]=KSystemLog
+@@ -15,6 +16,7 @@
+ Name[ga]=KSystemLog
+ Name[gl]=KSystemLog
+ Name[hne]=के-सिस्टम-लाग
++Name[hr]=KSystemLog
+ Name[hu]=Rendszernapló-megjelenítő
+ Name[is]=KSystemLog
+ Name[it]=KSystemLog
+@@ -51,6 +53,7 @@
+ Comment=System log viewer tool
+ Comment[bg]=Инструмент за преглеждане на системните логове
+ Comment[ca]=Eina de visualització dels registres del sistema
++Comment[ca@valencia]=Eina de visualització dels registres del sistema
+ Comment[cs]=Nástroj na prohlížení záznamů systému
+ Comment[da]=Fremviserværktøj til systemlog
+ Comment[de]=Betrachter für Systemprotokolle
+@@ -64,6 +67,7 @@
+ Comment[ga]=Amharcán ar logchomhaid an chórais
+ Comment[gl]=Visor dos rexistros do sistema
+ Comment[hne]=तंत्र लाग प्रदर्सक औजार
++Comment[hr]=Alat za prikaz dnevnika sustava
+ Comment[hu]=Rendszernapló-megjelenítő eszköz
+ Comment[is]=Tól til að skoða kerfisannála (system logs)
+ Comment[it]=Strumento di visione dei registri di sistema
+@@ -95,6 +99,7 @@
+ GenericName=System Logs Viewer
+ GenericName[bg]=Преглед на системните логове
+ GenericName[ca]=Visor dels registres del sistema
++GenericName[ca@valencia]=Visor dels registres del sistema
+ GenericName[cs]=Prohlížeč záznamů systému
+ GenericName[da]=Systemlogfremviser
+ GenericName[de]=Systemprotokoll-Betrachter
+@@ -108,6 +113,7 @@
+ GenericName[ga]=Amharcán ar Logchomhaid an Chórais
+ GenericName[gl]=Visor dos rexistros do sistema
+ GenericName[hne]=तंत्र लाग प्रदर्सक
++GenericName[hr]=Preglednik dnevnika sustava
+ GenericName[hu]=Rendszernapló-nézegető
+ GenericName[is]=Kerfisannálabirtir
+ GenericName[it]=Visore dei registri di sistema
+diff -Nur kdeadmin-4.3.4/ksysv/ksysv.desktop kdeadmin-4.3.5/ksysv/ksysv.desktop
+--- kdeadmin-4.3.4/ksysv/ksysv.desktop	2009-10-02 10:18:28.000000000 +0200
++++ kdeadmin-4.3.5/ksysv/ksysv.desktop	2010-01-21 21:48:43.000000000 +0100
+@@ -6,6 +6,7 @@
+ Name[bn]=কে-সিস-ভি
+ Name[br]=KSysV
+ Name[ca]=KSysV
++Name[ca@valencia]=KSysV
+ Name[cs]=KSysV
+ Name[da]=KSysV
+ Name[de]=KSysV
+@@ -66,6 +67,7 @@
+ GenericName[bn]=সিস-ভি-আইনিট সম্পাদক
+ GenericName[br]=Aozer deraouiñ SysV
+ GenericName[ca]=Editor de l'init SysV
++GenericName[ca@valencia]=Editor de l'init SysV
+ GenericName[cs]=SysV-Init editor
+ GenericName[cy]=Golygydd SysV-Init
+ GenericName[da]=SysV-Init Editor
+diff -Nur kdeadmin-4.3.4/ksysv/x-ksysv.desktop kdeadmin-4.3.5/ksysv/x-ksysv.desktop
+--- kdeadmin-4.3.4/ksysv/x-ksysv.desktop	2009-10-02 10:18:28.000000000 +0200
++++ kdeadmin-4.3.5/ksysv/x-ksysv.desktop	2010-01-21 21:48:43.000000000 +0100
+@@ -7,6 +7,7 @@
+ Comment[bn]=সংরক্ষিত আইনিট কনফিগারেশন
+ Comment[br]=Kefluniañ deraouiñ enrollet
+ Comment[ca]=S'ha desat la configuració init
++Comment[ca@valencia]=S'ha alçat la configuració init
+ Comment[cs]=Uložené nastavení inicializačních schémat
+ Comment[cy]=Wedi cadw furfweddiad Init
+ Comment[da]=Gemt Init-indstilling
+@@ -25,7 +26,7 @@
+ Comment[he]=תצורת אתחול שמורה
+ Comment[hi]=इनिट कॉन्फ़िगरेशन सहेजा
+ Comment[hne]=इनिट कान्फिगरेसन सहेजिस
+-Comment[hr]=Spremljena Init konfiguracija
++Comment[hr]=Spremljena početna konfiguracija
+ Comment[hu]=Elmentett Init-beállítás
+ Comment[is]=Vistaðar Init stillingar
+ Comment[it]=Configurazione di Init salvata
+@@ -56,7 +57,7 @@
+ Comment[tg]=Танзимотҳои оғози нигоҳ дошта
+ Comment[th]=บันทึกค่าปรับแต่งของการเริ่มระบบ
+ Comment[tr]=Kaydedilmiş Init Yapılandırması
+-Comment[uk]=Збережена конфігурація процесу Init
++Comment[uk]=Збережені налаштування процесу Init
+ Comment[vi]=Cấu hình Init đã lưu
+ Comment[wa]=Apontiaedje d' enondaedje schapé
+ Comment[xh]=Uqwalaselo olugciniweyo lwe Init
+diff -Nur kdeadmin-4.3.4/ksysv/x-ksysv-log.desktop kdeadmin-4.3.5/ksysv/x-ksysv-log.desktop
+--- kdeadmin-4.3.4/ksysv/x-ksysv-log.desktop	2009-10-02 10:18:28.000000000 +0200
++++ kdeadmin-4.3.5/ksysv/x-ksysv-log.desktop	2010-01-21 21:48:43.000000000 +0100
+@@ -5,6 +5,7 @@
+ Comment[bg]=Редактор на инициализиращите нива
+ Comment[bn]= সিস-ভি-আইনিট সম্পাদক কার্যবিবরণী ফাইল
+ Comment[ca]=Fitxer de registre de l'editor init SysV
++Comment[ca@valencia]=Fitxer de registre de l'editor init SysV
+ Comment[cs]=Záznamový soubor programu SysV-Init editoru
+ Comment[cy]=Ffeil Cofnodi Golygydd SysV-Init
+ Comment[da]=SysV-Init editor logfil
+diff -Nur kdeadmin-4.3.4/kuser/kuser.desktop kdeadmin-4.3.5/kuser/kuser.desktop
+--- kdeadmin-4.3.4/kuser/kuser.desktop	2009-10-02 10:18:28.000000000 +0200
++++ kdeadmin-4.3.5/kuser/kuser.desktop	2010-01-21 21:48:43.000000000 +0100
+@@ -7,6 +7,7 @@
+ Name[bn]=কে-ব্যবহারকারী
+ Name[br]=KUser
+ Name[ca]=KUser
++Name[ca@valencia]=KUser
+ Name[cs]=KUser
+ Name[cy]=KUser
+ Name[da]=KUser
+@@ -73,6 +74,7 @@
+ GenericName[bn]=ব্যবহারকারী ম্যানেজার
+ GenericName[br]=Merour an arveriaded
+ GenericName[ca]=Gestor d'usuaris
++GenericName[ca@valencia]=Gestor d'usuaris
+ GenericName[cs]=Správce uživatelů
+ GenericName[cy]=Rheolydd Defnyddwyr
+ GenericName[da]=Brugerhåndtering
+diff -Nur kdeadmin-4.3.4/lilo-config/kde/lilo.desktop kdeadmin-4.3.5/lilo-config/kde/lilo.desktop
+--- kdeadmin-4.3.4/lilo-config/kde/lilo.desktop	2009-10-02 10:18:28.000000000 +0200
++++ kdeadmin-4.3.5/lilo-config/kde/lilo.desktop	2010-01-21 21:48:43.000000000 +0100
+@@ -19,6 +19,7 @@
+ Name[bn]=বুট ম্যানেজার (LILO)
+ Name[br]=C'Harger loc'hañ (LILO)
+ Name[ca]=Gestor d'arrencada (LILO)
++Name[ca@valencia]=Gestor d'arrencada (LILO)
+ Name[cs]=Správce spuštění (LILO)
+ Name[cy]=Rheolydd Cychwyn (LILO)
+ Name[da]=Boothåndtering (LILO)
+@@ -37,7 +38,7 @@
+ Name[he]=מנהל האתחול (LILO)
+ Name[hi]=बूट प्रबंधक (लिलो)
+ Name[hne]=बूट प्रबंधक (लिलो)
+-Name[hr]=Upravljanje pokretanjem (LILO)
++Name[hr]=Upravitelj pokretanjem (LILO)
+ Name[hu]=Rendszerindító (LILO)
+ Name[is]=Ræsistjóri (LILO)
+ Name[it]=Gestore di avvio (LILO)
+@@ -84,6 +85,7 @@
+ Comment[bn]=LILO (লিনাক্স বুট ম্যানেজার) কনফিগার করে
+ Comment[br]=Kefluniañ LILO (ar c'harger loc'hañ evit Linux)
+ Comment[ca]=Aquí podreu configurar el LILO (el gestor d'arrencada de Linux)
++Comment[ca@valencia]=Ací podreu configurar el LILO (el gestor d'arrencada de Linux)
+ Comment[cs]=Zde je možné nastavit LILO (LInux LOader)
+ Comment[cy]=Ffurfweddu LILO (rheolydd cychwyn Linux)
+ Comment[da]=Indstil LILO (Linux-boothåndtering)
+@@ -102,7 +104,7 @@
+ Comment[he]=שינוי הגדרות LILO (מנהל האתחול של לינוקס)
+ Comment[hi]=लिलो कॉन्फ़िगर करें (लिनक्स बूट प्रबंधक)
+ Comment[hne]=लिलो कान्फिगर करव (लिनक्स बूट प्रबंधक)
+-Comment[hr]=Konfigurirajte LILO (Linux upravitelj pokretanja sustava)
++Comment[hr]=Podesite LILO (upravitelj pokretanja Linuxa)
+ Comment[hu]=A LILO rendszerindító beállításai
+ Comment[is]=Stilla LILO (Linux ræsistjórann)
+ Comment[it]=Configura LILO (il gestore dell'avvio di Linux)
+diff -Nur kdeadmin-4.3.4/strigi-analyzer/rpm/kfile_rpm.desktop kdeadmin-4.3.5/strigi-analyzer/rpm/kfile_rpm.desktop
+--- kdeadmin-4.3.4/strigi-analyzer/rpm/kfile_rpm.desktop	2009-10-02 10:18:28.000000000 +0200
++++ kdeadmin-4.3.5/strigi-analyzer/rpm/kfile_rpm.desktop	2010-01-21 21:48:43.000000000 +0100
+@@ -8,6 +8,7 @@
+ Name[bn]=আরপিএম পরিসংখ্যান
+ Name[br]=Stadegoù gant RPM
+ Name[ca]=L'estat dels RPM
++Name[ca@valencia]=L'estat dels RPM
+ Name[cs]=RPM statistiky
+ Name[cy]=Ystadegau RPM
+ Name[da]=RPM-stats
+@@ -26,7 +27,7 @@
+ Name[he]=סטטיסטיקת RPM
+ Name[hi]=आरपीएम स्टैट्स
+ Name[hne]=आरपीएम स्टैट्स
+-Name[hr]=RPM statistike
++Name[hr]=Statistike za RPM
+ Name[hu]=RPM-jellemzők
+ Name[is]=RPM Stats
+ Name[it]=Statistiche RPM
+diff -Nur kdeadmin-4.3.4/system-config-printer-kde/system-config-printer-kde.desktop kdeadmin-4.3.5/system-config-printer-kde/system-config-printer-kde.desktop
+--- kdeadmin-4.3.4/system-config-printer-kde/system-config-printer-kde.desktop	2009-10-02 10:18:28.000000000 +0200
++++ kdeadmin-4.3.5/system-config-printer-kde/system-config-printer-kde.desktop	2010-01-21 21:48:43.000000000 +0100
+@@ -14,6 +14,7 @@
+ Name=Printer Configuration
+ Name[bg]=Настройване на принтер
+ Name[ca]=Configuració d'impressora
++Name[ca@valencia]=Configuració d'impressora
+ Name[cs]=Nastavení tiskárny
+ Name[da]=Konfiguration af printer
+ Name[de]=Druckereinrichtung
+@@ -23,6 +24,7 @@
+ Name[et]=Printeri seadistamine
+ Name[fr]=Configuration de l'imprimante
+ Name[gl]=Configuración da impresora
++Name[hr]=Konfiguracija pisača
+ Name[hu]=Nyomtatóbeállítás
+ Name[is]=Stillingar prentara
+ Name[it]=Configurazione delle stampanti
+@@ -49,6 +51,7 @@
+ Comment=Configure local and remote Printers
+ Comment[bg]=Настройване на локални и отдалечени принтери
+ Comment[ca]=Configura les impressores locals i remotes
++Comment[ca@valencia]=Configura les impressores locals i remotes
+ Comment[cs]=Nastavte lokální a vzdálené tiskárny
+ Comment[da]=Indstil lokale og eksterne printere
+ Comment[de]=Drucker einrichten
+@@ -58,6 +61,7 @@
+ Comment[et]=Kohalike ja võrguprinterite seadistamine
+ Comment[fr]=Configurer les imprimantes locales et distantes
+ Comment[gl]=Configuración as impresoras locais e remotas
++Comment[hr]=Podesi lokalne i udaljene pisače
+ Comment[hu]=helyi és távoli nyomtatók beállításai
+ Comment[is]=Stilla staðværa sem fjarlæga prentara
+ Comment[it]=Configura le stampanti locali e remote
